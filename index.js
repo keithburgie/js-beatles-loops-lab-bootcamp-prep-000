@@ -13,5 +13,6 @@ function johnLennonFacts(facts) {
   while(facts[i] < facts.length) {
     array.push(facts[i].concat("!!!"))
   }
+  console.log(facts.length)
   return array;
 }
