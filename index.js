@@ -13,6 +13,7 @@ function johnLennonFacts(facts) {
   while(array.length < facts.length) {
     let i = 0;
     array.push(facts[i].concat("!!!"))
+    i++;
   }
   return array;
 }
